@@ -1,0 +1,288 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuling's website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide|Nanum Pen Script|Trirong|Londrina Sketch|Rubik Distressed|Road Rage|Murecho|Anton|Noto Sans TC|Noto Sans Traditional Chinese">
+    <script src="https://kit.fontawesome.com/ee3b3cc75d.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="images/icon.png">
+    <script>
+        function openCity(evt, cityName) {
+          var i;
+          var x = document.getElementsByClassName("tabcontent");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none"; 
+          }
+          tablinks = document.getElementsByClassName("tablink");
+          for (i = 0; i < x.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" w3-blue-grey", "");}
+          document.getElementById(cityName).style.display = "block";  
+          evt.currentTarget.className += " w3-blue-grey";
+        }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</head>
+<body>
+    <header>
+        <h1 class="yw">Yuling's website</h1>
+        <nav>
+            <a href="#home_section">HOME</a> 
+            <a href="#about_section">ABOUT ME</a> 
+            <a href="#portfolio_section">PORTFOLIO</a> 
+        </nav>
+            
+    </header>
+    <main>
+        <section class="home" id="home_section">
+            
+            <div id="rectangle">
+                <p>Hi</p>
+                <p>I'm Yuling!</p>
+                <!-- <p class="read_button" style="font-size: 0%;">
+                    <a href="#about_section">read more</a>
+                </p> -->
+            </div>
+            <div id="rectangle_broader"></div>
+            <div  class="read_button"><a href="#about_section"><strong>READ MORE</strong></a></div>
+
+        </section>
+
+        <section class="about" id="about_section">
+            <!-- <img src="images/resume.JPG" alt="Paris" width="150" height="150"> -->
+            <div class="resume_photo"></div>
+            <div class="resume_photo_bg"></div>
+            <div class="resume_photo_bg_blue"></div>
+            <div class="col"></div>
+            <div class="skillicon">
+                <div>
+                    <i class="fa-brands fa-python" id="python" style="color: #617780;"></i> Python
+                </div>
+                <div>
+                    <i class="fa-solid fa-database" style="color: #617780;"></i> Database
+                </div>
+                <div>
+                    <i class="fa-solid fa-code" style="color: #617780; position: relative; left: -3.5px;"></i>HTML / CSS / JavaScript
+                </div>
+                <div>
+                    <img src="images/c.png"  style="height: 25px; vertical-align: middle; position: relative; left: -3.5px;"></img> C++
+                </div>
+                <div>
+                    <img src="images/icons8-teaching-50.png"  style="height: 25px; vertical-align: middle; position: relative; left: -3.5px;"></img> 資料結構(Java)
+                </div>
+                <div>
+                    <img src="images/icons8-teaching-50.png"  style="height: 25px; vertical-align: middle; position: relative; left: -3.5px;"></img> 資料探勘
+                </div>
+                <div>
+                    <img src="images/icons8-teaching-50.png"  style="height: 25px; vertical-align: middle; position: relative; left: -3.5px;"></img> 嵌入式系統與實作(C)
+                </div>
+                <div>
+                    <img src="images/icons8-teaching-50.png"  style="height: 25px; vertical-align: middle; position: relative; left: -3.5px;"></img> 人工智慧及機器學習
+                </div>
+             
+
+
+            </div>
+           
+        
+
+            <div class="tab" >
+                <button onclick="openCity(event,'content1')" id="tab1" class="tablink"><strong>EDUCATION</strong></button>
+                <button onclick="openCity(event,'content2')" id="tab2" class="tablink"><strong>CERTIFICATE / REWARDS</strong></button>
+                <button onclick="openCity(event,'content3')" id="tab3" class="tablink"><strong>EXPERIENCE</strong></button>
+            </div>
+            <div id="content1" class="tabcontent table">
+                <ul >
+                    <li>國立成功大學-醫學資訊所</li>
+                        <p id="content">Cheng Kung University(2021-2023)<br>Institute of Medical Informatics </p> 
+                    <li>⾼雄醫學大學-醫務管理暨醫療資訊學系</li>
+                    <p id="content">Kaohsiung Medical University <br>
+                    Department of Healthcare Administration Medical Informatics(2017-2021)</p>
+                </ul>
+            </div>
+            
+            <div id="content2" class="tabcontent table">
+                <ul >
+                    <li>4學期領書卷獎</li>
+                    <li>畢業生優秀獎:智育獎、四育並優獎</li>
+                    <li>MTA : Networking Fundamentals、Database Fundamentals</li>
+                    <li>109年度⾼雄醫學⼤學壁報論⽂競賽(傑出獎、優質獎)</li>
+                    <li>醫療領域創新資訊應⽤專題競賽(第三名)</li>
+                    <li>2020戰國策第15屆戰國策創新創業競賽(入圍前5強)</li>
+                    <li>2023成功大學醫學資訊所畢業成果發表會(第三名)</li>
+                </ul>
+            </div>
+            <div id="content3" class="tabcontent table">
+                <ul >
+                    <li>106-1醫務管理暨醫療資訊學系-班代</li>
+                    <li>108-109醫務管理暨醫療資訊學系-副班代</li>
+                    <li>108-109學年⾼雄醫學大學語言中心-工讀生(2年)</li>
+                    <li>109學年⾼雄醫學大學通識中心-工讀生(1年)</li>
+                    <li>2020年「⽂學與語言教學」學術研討會-工作人員</li>
+                    <li>108-109學年國⽂、英文、微積分助教</li>
+                    <li>⾼雄醫學大學110級畢聯會-畢委兼畢務長</li>
+                    <li>2021勞動部人工智慧與資訊產業應用班(400小時)</li>
+                    <li>110學年國⽴成功⼤學資訊系行政助教(1年)</li>
+                    <li>111學年國⽴成功⼤學資訊系行政班長(1年)</li>
+                </ul>
+            </div>
+            
+            <div class="name"><p><strong>郭昱伶</strong></p></div>
+            <div class="line"> </div>
+            <div class="skill"> <strong>SKILL / COURSE</strong> </div>
+
+        </section>
+        <script>
+            function displayDate() {
+              document.getElementById("demo").innerHTML = Date();
+            }
+        </script>
+            
+            
+        <section class="portfolio" id="portfolio_section">
+            <!-- Button to Open the Modal -->
+<button type="button" class="btn_portfolio btn-primary" data-bs-toggle="modal" data-bs-target="#seniorProject">undergraduate <br> senior project
+    <img src="images\大學專題.jpg" class="imgsize">
+  </button>
+
+  <button type="button" class="btn_portfolio btn-primar" data-bs-toggle="modal" data-bs-target="#thesis">Master's <br>thesis
+    <span></span><img src="images\0710.jpg" class="imgsize">
+  </button>
+
+  <button type="button" class="btn_portfolio btn-primar" data-bs-toggle="modal" data-bs-target="#website" style="width: 300px;;">勞動部人工智慧與資訊產業應用班-第二周動態網頁課程作品
+    <span></span><img src="images\home.gif" class="homeimgsize">
+  </button>
+  
+  <!-- The Modal -->
+  <div class="modal" id="seniorProject">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title" style="color:#1b4766;"><strong>以LINE Bot實現個人化健康識能教育-健康賴著你</strong></h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body">
+          <img src="images/mr.healthy.jpg" class="healthPic">
+          <p class="healthContext">
+            簡介:<br>以LINE Bot來實現個人化健康識能教育，主要的內容是可以讓使用著輸入生理數值(如血糖)，則系統會回饋個人化衛教與建議，另外也將一些醫療服務貼心整合，而我在專題中負責擔任隊長控制進度以及主要程式的撰寫。<br><br>其他資訊:
+            <div class="additional">
+            <ul>
+                <li>2020/12~2021/05(指導教授:魏春旺老師)</li>
+                <li>Python+LineBot API+Heroku+MySQL</li>
+                <li>109年度⼤專學⽣研究計畫</li>
+                <li>109年度⾼雄醫學⼤學壁報論⽂競賽(傑出獎、優質獎)</li>
+                <li>醫療領域創新資訊應⽤專題競賽(第三名)</li>
+                <li>2020戰國策第15屆戰國策創新創業競賽(入圍前5強)</li>
+            </ul>
+
+           </div>
+           
+          </p>
+          
+        </div>
+  
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+
+   <!-- The Modal -->
+   <div class="modal" id="thesis">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title" style="color:#1b4766;"><strong>可視化轉錄因子與甲基化資訊之實現</strong></h4>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body">
+          <img src="images/OVERVIEW.png" class="methylPic">
+          <p  class="healthContext">
+            <strong class="methylabstrat">背景：</strong><br>轉錄因子（TF）結合和基因附近的DNA甲基化在基因調控中扮演重要角色。Hsu和Horton在近期開發了MethylSeqLogo，作為序列標誌的「甲基化智能」擴展，它可以同時顯示一組轉錄因子結合位點的DNA序列和甲基化訊息（相對於某種背景分佈）。然而，他們的MethylSeqLogo設計有兩個限制。第一個限制是他們沒有完全自動化從原始數據生成MethylSeqLogo圖像的過程。這是一個大問題，因為TF結合和DNA甲基化是組織特異性的，所以每個使用者可能對不同的MethylSeqLogo圖像感興趣。Hsu和Horton提供了開源軟體來生成MethylSeqLogo圖像，但要求使用者提供在圖像中顯示的轉錄因子結合位點序列和甲基化訊息。不幸的是，從相關實驗的標準原始或次要數據文件中提取這些訊息需要幾個步驟（轉錄因子結合位的CHiP Seq和DNA甲基化的亞硫酸测序）。第二個限制是他們只提供了兩個背景分佈（whole genome 和 一組 promoter regions）來比較轉錄因子結合位點的DNA甲基化水平，但某些TF的結合位點分佈可能與這兩個背景模型都不匹配。<br>
+            <strong class="methylabstrat">目標和方法：</strong><br>本研究描述了我們開發的原始軟體，以支持和擴展MethylSeqLogo。我們的目標是：1）創建一個自動化的計算管道，從標準數據文件格式（BED file）中自動生成MethylSeqLogo圖像的實驗數據；2）擴展MethylSeqLogo軟體，支持基於與TF結合位點側翼區域的TF特定背景模型flanking region）。<br>
+            <strong class="methylabstrat">結果和討論：</strong><br>在描述我們的方法的實做之後，我們展示了使用我們的管道生成的幾個MethylSeqLogo圖像。當使用相同的（全基因組）背景模型時，我們確認這些MethylSeqLogo圖像與Hsu和Horton發佈的圖像一致。此外，我們對比了使用與啟動子區域背景（promoter region）相比的側翼區域（flanking region）背景模型生成的MethylSeqLogo圖像。我們發現在某些情況下，使用啟動子背景模型（promoter region）似乎表明DNA甲基化起著重要作用，當使用側翼區域背景模型（flanking region）時，DNA甲基化與結合位之間的大部分相關性消失。這個觀察強調了在解釋數據中的統計趨勢時使用適當背景的必要性。
+        <br><br>其他資訊:
+            <div class="additional">
+            <ul>
+                <li>2023/01~2023/06(指導教授:賀保羅老師)</li>
+                <li>(LINUX)Python+Bedtool+JASPAR+Remap</li>
+                <li>2023成功大學醫學資訊所畢業成果發表會第三名</li>
+               
+            </ul>
+
+           </div>
+           
+          </p>
+          
+        </div>
+  
+        <!-- Modal footer -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+        </div>
+  
+      </div>
+    </div>
+  </div>
+
+    <!-- The Modal -->
+    <div class="modal" id="website">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+      
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title" style="color:#1b4766;"><strong>第二周動態網頁課程作品</strong></h4>
+              <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+            </div>
+      
+            <!-- Modal body -->
+            <div class="modal-body">
+                <video width="100%" controls>
+                    <source src="vedio/website.mp4" type="video/mp4">
+
+
+    
+               </div>
+               
+              </p>
+              
+            </div>
+      
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+            </div>
+      
+          </div>
+        </div>
+      </div>
+
+        </section>
+
+        <div class="top_button">
+            <a href="#home_section"><i class='fas fa-chevron-circle-up'></i></a>
+        </div>
+    </main>
+    <footer>
+        YULING GUO © 2023
+    </footer>
+</body>
+</html>
+

@@ -1,0 +1,430 @@
+*{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    font-family: "Microsoft JhengHei";
+    
+
+
+}
+header{
+    background-color:  whitesmoke;
+    height: 80px;
+    width: 100%;
+    position: fixed; 
+    z-index: 999;
+}
+
+.yw{
+    font-size: 38px;
+    color: #4e778d;
+    font-family: 'Road Rage', "Londrina Sketch","Rubik Distressed","Nanum Pen Script", "Times New Roman", "Murecho", serif;
+    position: absolute;
+    left: 20px;
+    top: 0;
+    line-height: 80px;
+}
+nav{
+    position: absolute;
+    right: 5vw;
+    top: 0;
+    line-height: 80px;
+   
+}
+
+nav a{
+    color: #4e778d;
+    font-family: monospace;
+    text-decoration: none;
+    margin: auto 2vw;
+    font-size: 15px;
+
+}
+nav a:hover{
+    text-decoration: underline;
+}
+
+/* section{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    color: cadetblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+} */
+
+
+#home_section{
+    height: 100vh;
+    width: 100%;
+    background-color:rgba(71, 74, 79, 0.817);
+    background-blend-mode: multiply;
+    background-image: url('images/IMG_6389.JPG');
+    background-size: cover;
+    background-attachment: fixed;
+
+    
+}
+
+#rectangle_broader {
+    width: 80vw;
+    height: 70vh;
+    border: 3px solid rgba(224, 217, 217, 0.701);
+    position: absolute;
+    top: 20.5%;
+    left: 9%;
+    z-index: 3;  
+    }
+
+#rectangle {
+width: 100%;
+height: 60vh;
+background-color:rgba(255, 255, 255, 0.1);
+position: absolute;
+top: 26%;
+display: flex;
+flex-direction: column;
+align-items: center;
+z-index: 2;
+}
+
+#rectangle  p {
+    
+    font-size: 100px;
+    color: whitesmoke;
+    font-family: 'Road Rage', 'Gill Sans MT';
+    z-index: 3;
+    /* text-align: center;  */
+
+}
+
+.read_button a{
+    font-family: 'Gill Sans MT';
+    position: absolute;
+    top: 70%;
+    right: 45%;
+    text-decoration: none;
+    font-size: 15px;
+    color: #1b4766 ;
+    border: 3px solid #1b4766 ;
+    padding: 1px 3px;
+    border-radius: 10px;
+    z-index: 4;
+    /* color: sandybrown; */
+}
+
+.read_button a:hover{
+ background-color: #c3980c;
+ color: aliceblue;
+ border: 2px groove  #FDCB27;
+ 
+}
+/* ----------ABOUT------------ */
+.line{
+    width: 18vw;
+    height: 2px;
+    z-index: 4;
+    background-color: #7c8486;
+    position: absolute;
+    top: 1090px;
+    left: 47px;
+
+}
+.skill{
+    width: 10vw;
+    height: 25px;
+    background-color: white;
+    position: absolute;
+    top: 1080px;
+    left: 95px;
+    font-family: "Microsoft JhengHei";
+    z-index: 5;
+    text-align: center;
+    color: #71787a;
+
+}
+.about{
+    height: 100vh;
+    width: 100%;
+    /* background-color: rgb(149, 180, 183);   */
+}
+
+.resume_photo{
+    background-image: url(images/resume.JPG);
+    width: 200px;
+    height: 200px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: 30% 0%;
+    position: absolute;
+    top: 830px;
+    left: 63px;
+    z-index: 99;
+
+}
+
+.resume_photo_bg{
+    background-color: #f5f0ea;
+    width: 250px;
+    height: 300px;
+    position: absolute;
+    left: 40px;
+    z-index: 2;
+}
+
+.resume_photo_bg_blue{
+    background-color: #7f9ba7;
+    height: 100px;
+    width: auto;
+    /* position: absolute; */
+    z-index: 1;
+}
+
+.name{
+    width: 100px;
+    height: 70px;
+    /* background-color: aquamarine; */
+    position: absolute;
+    top: 1040px;
+    left: 110px;
+    font-family: "Microsoft JhengHei";
+    font-size: 20pt;
+    text-align: center;
+}
+.skillicon i{
+    margin-right: 8px;
+    margin-bottom: 4px;
+    
+    
+}
+.skillicon{
+    font-weight:bold;
+    font-size: large;
+    padding: 10px 10px;
+    height: 200px;
+    width: 20vw;
+    position: absolute;
+    top: 1100px;
+    left: 38px;
+    z-index: 5;
+    display: inline-block;
+    justify-self: left;
+    margin-bottom: 10px;
+    vertical-align: middle;
+
+}
+
+.col{
+    background-color: #f5f0ea;
+    height: 47px;
+    width: 68vw;
+    position: absolute;
+    top: 830px;
+    left: 339px;
+    z-index: 3;
+
+}
+.square {
+        width: 20px;
+        height: 20px;
+        background: #7f9ba7;
+        position: absolute;
+        top: 843px;
+        left: 350px;
+        z-index: 5;
+}
+.title {
+    width: 50px;
+    height: 20px;
+    position: absolute;
+    top: 840px;
+    left: 38px;
+    font-family: "Microsoft JhengHei";
+    font-size: large;
+    z-index: 5;
+}
+.dot{
+        width: 10px;
+        height: 10px;
+        background: #7f9ba7;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+         border-radius: 50px; 
+         position: absolute;
+         top: 860px;
+         left: 380px;
+         z-index: 6;
+}
+.table{
+    width: 64vw;
+    height: 430px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17pt;
+    position: absolute;
+    top: 900px;
+    left: 380px;
+    z-index: 6;
+    text-align: left;
+    line-height: 33px;
+    background-color: rgb(245, 245, 245);
+    font-weight:bold;
+}
+
+.tab{
+    /* overflow: hidden; */
+    position: absolute;
+    top: 830px;
+    left: 338px;
+    z-index: 7;
+    
+
+    
+    
+}
+
+.tab button {
+	padding: 12px 10px;
+	background-color: inherit;
+	border: none;
+	outline: none;
+	transition: 0.5s;
+	font-size: 1rem;
+	cursor: pointer;
+    color: gray;
+    z-index: 99;
+    
+    
+	/* border: 2px solid red; */
+}
+
+/* .tab button:hover {
+	color: #0a3a6d;
+} */
+
+.tabcontent {
+    position: absolute;
+    top: 880px;
+    left: 340px;
+	padding: 10px 25px;
+	/* border: 2px solid #ccc; */
+	border-top: none; /* 顏色與.tab設定相同*/
+	text-align: justify;
+	display: none;
+}
+
+#content{
+    font-size: 15px;
+    
+}
+.tabcontent li{
+    padding-top: 5pt;
+}
+
+/* ----------ABOUT END------------ */
+
+.btn_portfolio{
+
+    border: none;
+    margin-right: 5%;
+    position: relative;
+    top: 100px;
+    left: 40px;
+    width: 200px;
+    font-weight: bold;
+    line-height:20px;  
+    display:inline-block;
+    vertical-align: middle;
+    
+    
+    
+
+}
+.btn_portfolio:hover{
+    opacity: 0.5
+
+}
+
+
+
+.imgsize{
+    height: 250px;
+    width: 100%;
+    
+    
+}
+
+.healthPic{
+    height: 65vh;
+    margin-right: 4%;
+    float: left;
+}
+.healthContext{
+    font-weight: bolder;
+    text-align: justify;
+}
+.additional{
+    position: relative;
+    left: 2%;
+
+    
+    
+    /* text-align: center; */
+}
+
+.additional li
+{
+    font-weight: bolder;
+
+    padding-bottom: 10px;
+}
+
+.methylPic{
+    width: 60vw;
+    margin-bottom: 2%;
+
+}
+.methylabstrat{
+    color: rgb(18, 118, 118);
+}
+.homeimgsize{
+    width: 22vw;
+    height: 100%;
+  
+}
+
+.portfolio{
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(77, 116, 116, 0.283);  
+}
+
+footer{
+    font-family:  'Trebuchet MS', 'Gill Sans MT';
+    color: rgba(111, 113, 117, 0.879);
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.top_button a{
+    color: #4e778d;
+    font-size:30px; 
+    position: fixed;
+    bottom: 20px;
+    right: 20px; 
+    z-index: 10; 
+}
+
+/* ----------from link-w3schools------------ */
+.w3-blue-grey,.w3-hover-blue-grey:hover,.w3-blue-gray,.w3-hover-blue-gray:hover{
+    color:#fff!important;
+    background-color:#7f9ba7
+    !important
+}
